@@ -28,7 +28,7 @@ function setTimeClock()
     let hours = h<10 ? "0"+h : h;
     
     let minutes = m<10 ? "0"+m : m;
-    let seconds = s<10 ? "0"+ s : s;
+    // let seconds = s<10 ? "0"+ s : s;
 
 
     digitalClock.innerText = hours + ":" + minutes +" "+ session ; 
