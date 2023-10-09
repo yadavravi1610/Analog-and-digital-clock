@@ -93,6 +93,13 @@ body,html{
     border: 1px solid whitesmoke;
     border-radius: 5px;
     padding: 2px 0 0 2px;
-    top: 50%;
+    top: 47%;
     left: 60%;
+}
+
+@media screen and (max-width:400px) {
+    #digitalClock{
+        left: 55%;
+        width: 75px;
+    }
 }
